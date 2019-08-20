@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/z"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </ViewFlipper>
+
+
+    <Button
+        android:id="@+id/btnNutrition"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/iconnuhm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnHealth"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/iconhealthy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnNutrition"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper" />
+
+    <Button
+        android:id="@+id/btnWork"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/iconwork"
+        app:layout_constraintStart_toStartOf="@+id/btnNutrition"
+        app:layout_constraintTop_toBottomOf="@+id/btnNutrition" />
+
+    <Button
+        android:id="@+id/btnTips"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/icontipshm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnHealth"
+        app:layout_constraintTop_toBottomOf="@+id/btnHealth"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnTele"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/icontele1"
+        app:layout_constraintStart_toStartOf="@+id/btnWork"
+        app:layout_constraintTop_toBottomOf="@+id/btnWork" />
+
+    <Button
+        android:id="@+id/btnApp1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/iconapp1"
+        android:cursorVisible="true"
+        android:duplicateParentState="false"
+        app:layout_constraintStart_toStartOf="@+id/btnTips"
+        app:layout_constraintTop_toBottomOf="@+id/btnTips" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

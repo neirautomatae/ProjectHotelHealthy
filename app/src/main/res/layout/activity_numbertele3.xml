@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/el"
+    tools:context=".Numbertele3">
+
+    <Button
+        android:id="@+id/btnbacktele3"
+        android:layout_width="72dp"
+        android:layout_height="25dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <Button
+        android:id="@+id/btnhometele3"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ScrollView
+        android:layout_width="261dp"
+        android:layout_height="294dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/numxz1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jang"
+                android:textColor="#141414"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang14"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile01"
+                android:text="@string/_191"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang13"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile02"
+                android:text="@string/_199"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang1"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile03"
+                android:text="@string/_1155"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang12"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile04"
+                android:text="@string/_1146"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang2"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile05"
+                android:text="@string/_1195"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang3"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile06"
+                android:text="@string/_1196"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang5"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile07"
+                android:text="@string/_1199"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang11"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile08"
+                android:text="@string/_02_241_2051"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang15"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile09"
+                android:text="@string/_1650"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang10"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile010"
+                android:text="@string/_02_298_2387"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile011"
+                android:text="@string/_086_130_2386"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang6"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile012"
+                android:text="@string/_1784"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/_100"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile013"
+                android:text="@string/_1137"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/_91"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile014"
+                android:text="@string/_1644"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang7"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile015"
+                android:text="@string/_1669"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang9"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile016"
+                android:text="@string/_1646"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang8"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile017"
+                android:text="@string/_1300"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang16"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile018"
+                android:text="@string/_1356"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang17"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile019"
+                android:text="@string/_1554"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang18"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile020"
+                android:text="@string/_1555"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numx35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/jang19"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numxx36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile021"
+                android:text="@string/_192"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

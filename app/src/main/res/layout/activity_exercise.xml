@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    tools:context=".Exercise">
+
+    <Button
+        android:id="@+id/btnbackHealth"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bk44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnbackexhome"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bk55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="310dp"
+        android:layout_height="373dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnyoga1"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:background="@drawable/yogacilp1" />
+
+            <Button
+                android:id="@+id/btnyoga2"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yogacilp2" />
+
+            <Button
+                android:id="@+id/btnyoga3"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yogacilp3" />
+
+            <Button
+                android:id="@+id/btnyoga4"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yogacilp4" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

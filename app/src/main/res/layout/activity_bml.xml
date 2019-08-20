@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bml"
+    tools:context=".Bml">
+
+    <Button
+        android:id="@+id/btnmenubmi"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:background="@drawable/iconbkbml"
+        android:onClick="clickbackbmi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <Button
+        android:id="@+id/btnbackhe"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:background="@drawable/iconhmbml"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtbmi1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=""
+        android:background="@drawable/txtbml"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17000002" />
+
+    <EditText
+        android:id="@+id/txtbmi2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:autofillHints=""
+        android:background="@drawable/txtbml"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtbmi1"
+        app:layout_constraintTop_toBottomOf="@+id/txtbmi1" />
+
+    <Button
+        android:id="@+id/btnresultbmi"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/backtxt"
+        android:text="@string/hi"
+        android:textColor="#0A0A0A"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txtbmi2"
+        app:layout_constraintTop_toBottomOf="@+id/txtbmi2" />
+
+    <TextView
+        android:id="@+id/viewresultbmi"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:hint="@string/_0_0"
+        android:textColor="#FCF7F7"
+        android:textColorHint="#FFFEFE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

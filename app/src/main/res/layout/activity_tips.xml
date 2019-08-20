@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d"
+    tools:context=".Tips">
+
+    <Button
+        android:id="@+id/btnbkmeex2"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/menu"
+        android:onClick="clickbackh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="440dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp">
+
+            <Button
+                android:id="@+id/tips1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/icontips1" />
+
+            <Button
+                android:id="@+id/tips2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips2" />
+
+            <Button
+                android:id="@+id/tips3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips3" />
+
+            <Button
+                android:id="@+id/tips4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips4" />
+
+            <Button
+                android:id="@+id/tips5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips5" />
+
+            <Button
+                android:id="@+id/tips6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips6" />
+
+            <Button
+                android:id="@+id/tips7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips7" />
+
+            <Button
+                android:id="@+id/tips8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips8" />
+
+            <Button
+                android:id="@+id/tips9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips9" />
+
+            <Button
+                android:id="@+id/tips10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips10" />
+
+            <Button
+                android:id="@+id/tips11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips11" />
+
+            <Button
+                android:id="@+id/tips12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips12" />
+
+            <Button
+                android:id="@+id/tips13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips13" />
+
+            <Button
+                android:id="@+id/tips14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips14" />
+
+            <Button
+                android:id="@+id/tips15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips15" />
+
+            <Button
+                android:id="@+id/btntips16"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips16" />
+
+            <Button
+                android:id="@+id/btntips17"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips17" />
+
+            <Button
+                android:id="@+id/btntips18"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icontips18" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

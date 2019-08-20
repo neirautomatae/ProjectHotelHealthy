@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcal"
+    tools:context=".Cal">
+
+    <EditText
+        android:id="@+id/txtbmr3"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="@drawable/txtcal"
+        android:ems="10"
+        android:inputType="number"
+        android:textColorHint="#0A0A0A"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <Button
+        android:id="@+id/btnboy"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:background="?attr/actionBarItemBackground"
+        android:textColor="#FDFAFA"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <Button
+        android:id="@+id/btnwoman2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:background="?attr/actionBarItemBackground"
+        android:onClick="clickfemale"
+        android:textColor="#FDFAFA"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392" />
+
+
+    <Button
+        android:id="@+id/btnoneday"
+        android:layout_width="111dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/nogay"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#673AB7"
+        android:textColorHint="#F44336"
+        android:textColorLink="#E91E63"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttduy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtbmr1" />
+
+
+    <Button
+        android:id="@+id/butallday"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/allcall"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#673AB7"
+        android:textColorHint="#F44336"
+        android:textColorLink="#E91E63"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/buteday"
+        app:layout_constraintTop_toBottomOf="@+id/buttduy" />
+
+    <Button
+        android:id="@+id/buteday"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sixcal"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#673AB7"
+        android:textColorHint="#F44336"
+        android:textColorLink="#E91E63"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/btnoneday"
+        app:layout_constraintTop_toBottomOf="@+id/btnoneday" />
+
+    <Button
+        android:id="@+id/butfday"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/threecal"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#673AB7"
+        android:textColorHint="#F44336"
+        android:textColorLink="#E91E63"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttduy"
+        app:layout_constraintTop_toBottomOf="@+id/txtbmr1" />
+
+    <Button
+        android:id="@+id/buttduy"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/onecal"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#673AB7"
+        android:textColorHint="#F44336"
+        android:textColorLink="#E91E63"
+
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@+id/butfday"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnoneday"
+        app:layout_constraintTop_toBottomOf="@+id/txtbmr1" />
+
+    <Button
+        android:id="@+id/btnbkn1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:onClick="clickbacknut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnbackcal1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/viewbmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/viewnum0"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <EditText
+        android:id="@+id/txtbmr2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="@drawable/txtcal"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#0F0F0F"
+        android:textColorHint="#0F0F0F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtbmr3"
+        app:layout_constraintTop_toBottomOf="@+id/txtbmr3"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <EditText
+        android:id="@+id/txtbmr1"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="@drawable/txtcal"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#0F0F0F"
+        android:textColorHint="#0F0F0F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtbmr2"
+        app:layout_constraintTop_toBottomOf="@+id/txtbmr2"
+        app:layout_constraintVertical_bias="0.071" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

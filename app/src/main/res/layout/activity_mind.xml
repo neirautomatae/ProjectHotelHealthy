@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmaid"
+    tools:context=".Mind">
+
+    <Button
+        android:id="@+id/btnbackmind"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:background="@drawable/iconbkmaid"
+        android:onClick="clickback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/btnbacnkhomemind"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:background="@drawable/icongohomemaid"
+        android:onClick="clickhome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+    <Button
+        android:id="@+id/btnjij"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/iconjij"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btngay"
+        app:layout_constraintTop_toBottomOf="@+id/btngay"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btngay"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:background="@drawable/icongay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

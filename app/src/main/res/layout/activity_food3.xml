@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfood"
+    tools:context=".Food3">
+
+    <Button
+        android:id="@+id/btnbkgreen"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:background="@drawable/iconoren"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btngreenhome"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:background="@drawable/iconorenhm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btngnred"
+        android:layout_width="55dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/iconred1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btngnoren"
+        android:layout_width="55dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/iconoren1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btngnred"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btngnblue"
+        android:layout_width="55dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/iconblue1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btngnoren"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollfood2"
+        android:layout_width="320dp"
+        android:layout_height="550dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtgreen12"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/viewfoodoren"
+                android:layout_width="320dp"
+                android:layout_height="800dp"
+                android:background="@drawable/foodgreen1" />
+
+            <TextView
+                android:id="@+id/viewgn2"
+                android:layout_width="320dp"
+                android:layout_height="800dp"
+                android:background="@drawable/foodgreen2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/viewkum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kum"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <TextView
+        android:id="@+id/txtgreen12"
+        android:layout_width="65dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/icongreen2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btngnblue" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:text="ที่มา: กรมอนามัย สำนักโภชนาการ"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/viewkum3"
+        app:layout_constraintTop_toBottomOf="@+id/viewkum3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

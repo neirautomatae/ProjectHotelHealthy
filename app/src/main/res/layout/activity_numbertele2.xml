@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/el"
+    tools:context=".Numbertele2">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="261dp"
+        android:layout_height="294dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/num1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pat"
+                android:textColor="#141414"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/saw"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile001"
+                android:text="@string/_1165"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/somsak"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile002"
+                android:text="@string/_1330"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat1"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile003"
+                android:text="@string/_1367"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/say"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile004"
+                android:text="@string/_1556"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat14"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile005"
+                android:text="@string/_02_251_0385"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa5a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile006"
+                android:text="@string/_02_251_0582"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile007"
+                android:text="@string/_02_252_6913"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat60"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile008"
+                android:text="@string/_1666"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat2"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile009"
+                android:text="@string/_1667"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/num8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/pat70"
+                android:textColor="#141414"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numm8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat69"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0010"
+                android:text="@string/_0_5371_1222"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa8a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0011"
+                android:text="@string/_0_5371_9119"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat62"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0012"
+                android:text="@string/_0_5374_4572"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/num10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/pat68"
+                android:textColor="#141414"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numm10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat67"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0013"
+                android:text="@string/_08_4378_9534"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat3"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0014"
+                android:text="@string/_053_7263689"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat66"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0015"
+                android:text="@string/_053_7374100"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat15"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0016"
+                android:text="@string/_053_723265"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat63"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0017"
+                android:text="@string/_08_6914_5417"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat4"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0018"
+                android:text="@string/_089_701_6771"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat50"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0019"
+                android:text="@string/_080_722_5660"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat65"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0020"
+                android:text="@string/_089_4313006"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat64"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0021"
+                android:text="@string/_087_1767437"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat51"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/numa19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0022"
+                android:text="@string/_053_713648"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/num20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/pat5"
+                android:textColor="#252424"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numm20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat59"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0023"
+                android:text="@string/_0_5374_2441"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat58"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0024"
+                android:text="@string/_1672"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat57"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0025"
+                android:text="@string/_0_5371_7433"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat56"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0026"
+                android:text="@string/_0_5371_7779"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/satane"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0027"
+                android:text="@string/_0_5378_3445"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat55"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0028"
+                android:text="@string/_0_5379_1426"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat54"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0029"
+                android:text="@string/_0_5377_7111"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat6"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0030"
+                android:text="@string/_0_5379_0090"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat53"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0031"
+                android:text="@string/_0_5365_7034"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat52"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0032"
+                android:text="@string/_0_5367_5694"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/satane1"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0033"
+                android:text="@string/_0_5360_5295"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat7"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0034"
+                android:text="@string/_0_5371_1444"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat16"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0035"
+                android:text="@string/pat49"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat47"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0036"
+                android:text="@string/_0_5376_7109"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat46"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0037"
+                android:text="@string/_0_5377_8199"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat45"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0038"
+                android:text="@string/_0_5373_1444"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat44"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0039"
+                android:text="@string/_0_5378_6004"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat43"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0040"
+                android:text="@string/_0_5373_7191"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat41"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0041"
+                android:text="@string/_0_5371_1588"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat40"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0042"
+                android:text="@string/_0_5376_1012"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat39"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0043"
+                android:text="@string/_0_5372_1515"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat17"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0044"
+                android:text="@string/_0_5379_9113"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat37"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0045"
+                android:text="@string/_0_5379_4405"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat36"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0046"
+                android:text="@string/_0_5376_9236"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat35"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0047"
+                android:text="@string/_0_5395_3155"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat29"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0048"
+                android:text="@string/_0_5360_8318"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat34"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0049"
+                android:text="@string/_0_5378_1466"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/num48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/pat18"
+                android:textColor="#252424"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numm48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat33"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0050"
+                android:text="@string/_0_5327_0222"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat8"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0051"
+                android:text="@string/_199"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat32"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0052"
+                android:text="@string/_0_5323_3479"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat31"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0053"
+                android:text="@string/_0_5327_0222_2191"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat19"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0054"
+                android:text="@string/_0_5324_7318"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat30"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0055"
+                android:text="@string/_0_5345_9033"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat27"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0056"
+                android:text="@string/_0_5324_8604"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat28"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0057"
+                android:text="@string/_0_5323_4051"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat26"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0058"
+                android:text="@string/_0_5347_5309"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat25"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0059"
+                android:text="@string/_0_5321_8445"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat24"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0060"
+                android:text="@string/_0_5321_9230"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat23"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0061"
+                android:text="@string/_0_5327_7477"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat22"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0062"
+                android:text="@string/_0_5333_2452"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat13"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0063"
+                android:text="@string/_0_5324_0289"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat20"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0064"
+                android:text="@string/_0_5331_1123"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat42"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0065"
+                android:text="@string/_0_5327_7510"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat12"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0066"
+                android:text="@string/_0_5349_1949"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat11"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0067"
+                android:text="@string/_0_5327_5715"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat10"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0068"
+                android:text="@string/_0_5348_7090"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat9"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0069"
+                android:text="@string/_0_5392_8028"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat21"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0070"
+                android:text="@string/_0_5332_1090"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat75"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0071"
+                android:text="@string/_0_5346_7110"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numm70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/pat76"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/numa70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="clickMobile0072"
+                android:text="@string/_0_5347_7066"
+                android:textColor="#252424"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btntelebk2"
+        android:layout_width="50dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <Button
+        android:id="@+id/btnhometele2"
+        android:layout_width="59dp"
+        android:layout_height="25dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
